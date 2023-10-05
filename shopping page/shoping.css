@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.supnova-branding {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    color: #ffffff;
+    /* White color */
+    margin-bottom: 20px;
+}
+
+header {
+    background-color: #3a3eb2;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.featured-products {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.product {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.product img {
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #3c46d8;
+    color: #ffffff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+}
