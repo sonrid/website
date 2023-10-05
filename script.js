@@ -6,7 +6,7 @@ function validateForm() {
     var email = document.getElementById("email").value;
     var password = document.getElementById("password").value;
 
-    // Check if the email and password match (you can replace this with your own validation logic)
+    
     if (email === "example@email.com" && password === "password123") {
         alert("Login successful!");
         return true;
