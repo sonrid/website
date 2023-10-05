@@ -1,6 +1,6 @@
 document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault();
-    // Add code to handle form submission (e.g., sending data to server)
+    
 });
 function validateForm() {
     var email = document.getElementById("email").value;
